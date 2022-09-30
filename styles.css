@@ -1,0 +1,624 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100%;
+  max-width: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: hsl(217, 28%, 15%);
+  color: #fff;
+}
+
+/* ------- HEADER ------*/
+header {
+  font-family: "Raleway", sans-serif;
+  padding: 3rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  width: 8rem;
+}
+header ul {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+header li {
+  color: hsl(0, 0%, 69%);
+}
+header li:hover {
+  color: hsl(0, 0%, 100%);
+  text-decoration: underline;
+}
+
+/* ------- HEADER ------*/
+
+/* ------- INTRO SECTION ------*/
+.intro {
+  width: 100%;
+  background-image: url(image/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding: 2rem 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro div {
+  width: 50%;
+}
+
+.intro div img {
+  width: 100%;
+}
+.intro div h2 {
+  letter-spacing: 1px;
+  margin-top: 2.5rem;
+  font-size: 2rem;
+}
+
+.intro div p {
+  letter-spacing: 1px;
+  margin: 1rem auto;
+  width: 70%;
+
+  font-size: 1rem;
+}
+
+.intro div button {
+  margin-top: 1rem;
+  width: 40%;
+  padding: 1.5rem;
+  border-radius: 3rem;
+  color: #fff;
+  background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  border: none;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.intro div button:hover {
+  background: hsl(176, 68%, 64%);
+}
+
+/* ------- INTRO SECTION ------*/
+
+/* ------- MAIN SECTION ------*/
+.main {
+  width: 100%;
+  background-color: hsl(218, 28%, 13%);
+  padding: 4rem 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.main div {
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 1rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main div img {
+  width: 25%;
+}
+.main div h2 {
+  margin: 1rem 0;
+}
+.main div p {
+  color: rgb(218, 218, 218);
+}
+/* ------- MAIN SECTION ------*/
+
+/* ------- LOWER SECTION ------ */
+
+.lower-section {
+  background-color: hsl(218, 28%, 13%);
+  padding: 2rem 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+.lower-section div {
+  width: 100%;
+}
+
+#productive-img {
+  width: 100%;
+}
+.content {
+  width: auto;
+}
+.content h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.content p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.link a {
+  letter-spacing: 0.5px;
+  width: auto;
+  text-decoration: underline;
+  color: hsl(176, 68%, 64%);
+}
+
+.link {
+  margin-top: 1rem;
+  width: 2rem;
+}
+.link a:hover {
+  border-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* ------- LOWER SECTION ------*/
+
+/* ------- TESTIMONY SECTION ------*/
+
+.testimony {
+  background-image: url(image/bg-quotes.png);
+  background-repeat: no-repeat;
+  background-position: 4rem 8rem;
+  padding: 10rem 5rem 20rem;
+  background-color: hsl(218, 28%, 13%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.testimony section {
+  -webkit-box-shadow: 0px 0px 20px 1px hsla(219, 30%, 18%, 0.4);
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 0.3rem;
+  width: 100%;
+  color: rgb(218, 218, 218);
+}
+.testimony section p {
+  font-size: 1rem;
+  letter-spacing: spacing 1px;
+}
+
+.testimony section h2 {
+  color: #fff;
+}
+.profile1,
+.profile2,
+.profile3 {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.profile1 img,
+.profile2 img,
+.profile3 img {
+  width: 3.5rem;
+  clip-path: circle(50%);
+}
+
+/* ------- TESTIMONY SECTION ------*/
+
+.sign-in-container {
+  background: linear-gradient(
+    to bottom,
+    hsl(218, 28%, 13%) 0%,
+    hsl(218, 28%, 13%) 50%,
+    hsl(216, 53%, 9%) 0%,
+    hsl(216, 53%, 9%) 50%
+  );
+
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-in-container section {
+  background: hsl(217, 28%, 15%);
+  -webkit-box-shadow: 0px 0px 20px 1px hsla(219, 30%, 18%, 0.4);
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+}
+
+.sign-in-container section h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.sign-in-container section form {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.form-group {
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+form input {
+  text-indent: 1rem;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  border-radius: 3rem;
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+}
+form button {
+  border: none;
+  outline: none;
+  background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  border-radius: 3.5rem;
+  width: 50%;
+  height: 3.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+form button:hover {
+  background: hsl(176, 68%, 64%);
+}
+.error {
+  border: 2px solid hsl(0, 100%, 63%);
+}
+.error-text {
+  margin-left: 2rem;
+  color: hsl(0, 100%, 63%);
+  font-size: 0.7rem;
+}
+
+.success {
+  border: 2px solid hsl(106, 100%, 63%);
+}
+
+/* -------FOOTER SECTION ------*/
+footer {
+  width: 100%;
+  background-image: url(image/logo.svg);
+  background-repeat: no-repeat;
+  background-position: 5rem 2rem;
+  background-color: hsl(216, 53%, 9%);
+  color: rgb(218, 218, 218);
+  padding: 6rem 5rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(218, 218, 218);
+  line-height: 1.5rem;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+.location img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.contact {
+  width: 20rem;
+  line-height: 1.5rem;
+}
+
+.contact p {
+  width: auto;
+}
+
+.contact,
+.about,
+.terms {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.social-links img {
+  width: 2.5rem;
+}
+
+.social-links img:hover {
+  cursor: pointer;
+  filter: invert(1);
+}
+/* -------FOOTER SECTION ------*/
+
+@media screen and(min-width: 200px) and (max-width: 500px) {
+  .main {
+    width: 100%;
+    background-color: hsl(218, 28%, 13%);
+    padding: 4rem 10rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3rem;
+  }
+
+  .main div {
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main div img {
+    width: 25%;
+  }
+  .main div h2 {
+    margin: 1rem 0;
+  }
+  .main div p {
+    color: rgb(218, 218, 218);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1050px) {
+  header {
+    padding: 2rem;
+    align-items: center;
+  }
+  header img {
+    width: 5rem;
+  }
+  header ul {
+    gap: 1rem;
+  }
+
+  /* ------- INTRO SECTION ------*/
+  .intro {
+    background-image: url(image/bg-curvy-mobile.svg);
+    padding: 1rem 0;
+  }
+
+  .intro div {
+    padding: 1rem;
+    width: 100%;
+  }
+  .intro div img {
+    width: 100%;
+  }
+  .intro div h2 {
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .intro div p {
+    margin: unset;
+    width: auto;
+    font-size: 1rem;
+  }
+
+  .intro div button {
+    width: auto;
+    padding: 1rem 5rem;
+  }
+  /* ------- INTRO SECTION ------*/
+
+  /* ------- MAIN SECTION ------*/
+  .main {
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .main div {
+    padding: 1rem;
+  }
+  .main div h2 {
+    font-size: 1.25rem;
+  }
+
+  /* ------- MAIN SECTION ------*/
+
+  /* ------- LOWER SECTION ------*/
+  .lower-section {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .lower-section div {
+    width: 100%;
+  }
+  .content {
+    width: 50%;
+  }
+  .content h1 {
+    font-size: 1rem;
+  }
+
+  /* ------- LOWER SECTION ------*/
+
+  /* ------- TESTIMONY SECTION ------*/
+  .testimony {
+    background-position: 1.5rem 8rem;
+    padding: 10rem 2rem 20rem;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .testimony section {
+    padding: 1.5rem;
+  }
+
+  .testimony section p {
+    font-size: 0.9rem;
+  }
+
+  .testimony h2 {
+    font-size: 1rem;
+  }
+
+  .profile1 img,
+  .profile2 img,
+  .profile3 img {
+    width: 2.5rem;
+    clip-path: circle(45%);
+  }
+
+  /* ------- TESTIMONY SECTION ------*/
+
+  /* ------- SIGN SECTION ------*/
+
+  .sign-in-container {
+    width: 100%;
+    padding: 2rem 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .sign-in-container section {
+    background: hsl(217, 28%, 15%);
+    -webkit-box-shadow: 0px 0px 20px 1px hsla(219, 30%, 18%, 0.4);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .form input {
+    text-indent: 0.5rem;
+    letter-spacing: 1px;
+  }
+
+  .sign-in-container section h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .sign-in-container form {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .form-group {
+    text-align: left;
+    display: block;
+    width: 100%;
+  }
+  form button {
+    width: 100%;
+  }
+  .error-text {
+    margin-left: 3.5rem;
+  }
+
+  /* ------- SIGN SECTION ------*/
+
+  footer {
+    background-image: url(image/logo.svg);
+    background-position: 1.5rem 3rem;
+    padding: 7rem 1rem 2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: unset;
+    gap: 2rem;
+  }
+  footer img {
+    margin-right: 1rem;
+  }
+  footer div {
+    width: auto;
+    display: flex;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+    line-height: 1.5rem;
+  }
+
+  footer div p {
+    width: unset;
+  }
+  footer a:hover {
+    color: #fff;
+  }
+
+  .location img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .contact {
+    line-height: 1.5rem;
+  }
+
+  .contact,
+  .about,
+  .terms {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-links {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+  }
+  .social-links img {
+    width: 2rem;
+  }
+
+  .social-links img:hover {
+    cursor: pointer;
+    filter: invert(1);
+  }
+}
